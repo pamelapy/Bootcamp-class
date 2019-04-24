@@ -42,6 +42,9 @@ class Person:
 
     def set_age(self, years):
         self.age = years
+    
+    def age_hh(self)
+    self.age = self.age - 1
 
 Fulanito = Person(5, "Fulanito")
 
