@@ -17,13 +17,12 @@ pepito = Dino(4, "Pepito")
 #despues instanciar un objeto de tipo persona
 
 class Persona:
-        nombre_persona = None
-        edad_persona = None
+        nomb_persona = None
 
-        def __init__(self, un_nombre, edad_persona):
-            self.nombre_persona = un_nombre
-            print("Hola me llamo", self.nombre_persona, ", y tengo", edad_persona, "años")
+        def __init__(self, un_nombre):
+            self.nomb_persona = un_nombre
+            print("Hola me llamo", self.nomb_persona,)
 
-yo = Persona("Pepito, 25")
+yo = Persona("Pepito")
 
 
