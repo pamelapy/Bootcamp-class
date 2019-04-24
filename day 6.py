@@ -26,3 +26,22 @@ class Persona:
 yo = Persona("Pepito")
 
 
+#Modificar la clase de persona
+#Agregarle un atributo edad y un metodo cumple años
+#Inicializar/ crear un objeto tipo persona y hacerle cumplir años
+
+class Person:
+    age = None
+    name = None
+    def __init__(self, age_years, a_name):
+        self.age = age_years
+        self.name = a_name
+        print("Hola mi nombre es", self.name, "y tengo", self.age, "años.")
+    def get_age(self):
+        return self.age
+
+    def set_age(self, years):
+        self.age = years
+
+Fulanito = Person(5, "Fulanito")
+
